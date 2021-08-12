@@ -1,0 +1,31 @@
+
+Scenario: User comes to the register page and enter his details and saved # FeatureFiles/RegisterFile.feature:2
+  Given User launch the browser and open the register page                # org.automation.stepdefinition.StepDefinition.user_launch_the_browser_and_open_the_register_page()
+      org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THOTAV3-TL1', ip: '10.113.230.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\thotav3\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9329548f058ec91d5c1f68861f310921
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.automation.base.DriverInstance.startDriverInstance(DriverInstance.java:34)
+	at org.automation.stepdefinition.StepDefinition.user_launch_the_browser_and_open_the_register_page(StepDefinition.java:13)
+	at ✽.User launch the browser and open the register page(file:///C:/Users/thotav3/eclipse-workspace/BDDFramework/FeatureFiles/RegisterFile.feature:4)
+
+  And user enters the First name and last name                            # org.automation.stepdefinition.StepDefinition.user_enters_the_first_name_and_last_name()
+  And user enters password in password and confirm password fields        # org.automation.stepdefinition.StepDefinition.user_enters_password_in_password_and_confirm_password_fields()
+  And user enters the email into email field                              # org.automation.stepdefinition.StepDefinition.user_enters_the_email_into_email_field()
+  When the user clicks on create button                                   # org.automation.stepdefinition.StepDefinition.the_user_clicks_on_create_button()
+  Then mail account is created                                            # null

@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-10T12:17:50.975Z",
+        "line": 2,
+        "name": "User comes to the register page and enter his details and saved",
+        "description": "",
+        "id": "create-an-gmail-account;user-comes-to-the-register-page-and-enter-his-details-and-saved",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d92.0.4515.131)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027THOTAV3-TL1\u0027, ip: \u002710.113.230.49\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\thotav3\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9329548f058ec91d5c1f68861f310921\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.automation.base.DriverInstance.startDriverInstance(DriverInstance.java:34)\r\n\tat org.automation.stepdefinition.StepDefinition.user_launch_the_browser_and_open_the_register_page(StepDefinition.java:13)\r\n\tat ✽.User launch the browser and open the register page(file:///C:/Users/thotav3/eclipse-workspace/BDDFramework/FeatureFiles/RegisterFile.feature:4)\r\n",
+              "duration": 7475010800,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User launch the browser and open the register page",
+            "match": {
+              "location": "org.automation.stepdefinition.StepDefinition.user_launch_the_browser_and_open_the_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 501300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters the First name and last name",
+            "match": {
+              "location": "org.automation.stepdefinition.StepDefinition.user_enters_the_first_name_and_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 499700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters password in password and confirm password fields",
+            "match": {
+              "location": "org.automation.stepdefinition.StepDefinition.user_enters_password_in_password_and_confirm_password_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 500000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enters the email into email field",
+            "match": {
+              "location": "org.automation.stepdefinition.StepDefinition.user_enters_the_email_into_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "the user clicks on create button",
+            "match": {
+              "location": "org.automation.stepdefinition.StepDefinition.the_user_clicks_on_create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "mail account is created",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create an gmail account",
+    "description": "",
+    "id": "create-an-gmail-account",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/RegisterFile.feature",
+    "tags": []
+  }
+]
