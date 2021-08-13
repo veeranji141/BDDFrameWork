@@ -14,6 +14,7 @@ public class StepDefinition {
 	}
 	@Given("user enters the First name and last name")
 	public void user_enters_the_first_name_and_last_name() {
+		System.out.println("Enter the first name");
 	    
 	}
 	@Given("user enters password in password and confirm password fields")
